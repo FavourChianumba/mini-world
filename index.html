@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="tailwind.css" rel="sylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+    <style>
+      body{
+        margin: 0;
+        -webkit-font-smoothing: antailiased;
+      }
+      .fontExo{
+        font-family: 'Exo 2', sans-serif;
+      }
+      .fontLato{
+        font-family: 'Lato', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex h-screen bg-black">
+      <div class="w-1/2 flex flex-col justify-center px-8">
+        <div style="max-width: 500px;" class="mx-auto">
+          <h1 class="text-white text-4xl mb-8 fontExo ">CHALLENGING THE STANDARD OF SPACE EXPLORATION</h1>
+          <P class="text-gray-400 mb-8 fontLato"> GHGGDSFGSUO UYDGOYV GSVYU HUPVGDYV CU UGVYDFGOS C GDYPGVFUXGV CD GVDYUGVDUYGV VD GYDG D CK SHC OGDYG VODGV VDOSGV  VH KXVJFKVHDSGVH VHOG HUFBV VJDU V DHU OBVYPD </P>
+          <div>
+            <a href="" class="text-white bg-green-600 inline-block px-8 py-4 rounded-full">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="w-1/2" id = "canvasContainer">
+        <canvas></canvas>
+      </div>
+    </div>
+    <div id="app"></div>
+    <script type="module" src="/world.js "></script>
+  </body>
+</html>
